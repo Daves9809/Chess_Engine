@@ -7,6 +7,14 @@ import com.example.chessengine.figures.Position
 
 interface GameManager {
 
+    fun initPositions()
+
+    fun initFigures()
+
+    fun getPosition(x: Char, y: Int): Position
+
+    fun replacePawn(figure: Figure)
+
     fun checkGameStatus(): GameStatus
 
     fun changeGameStatus(gameStatus: GameStatus)

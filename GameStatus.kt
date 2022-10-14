@@ -6,5 +6,5 @@ enum class GameStatus {
     BLACK_WIN,
     WHITE_WIN,
     RESIGNATION_WHITE,
-    RESIGNATION_BLACK 
+    RESIGNATION_BLACK
 }

@@ -1,3 +1,12 @@
 package com.example.chessengine.figures
 
-data class Position(var x:Int, var y: Int)
+import com.example.chessengine.Board
+
+data class Position(
+    var x:Char = 'A',
+    var y: Int = 0 ,
+    val color: String = "",
+    val figure: Figure? = null,
+    val board: Board? = null,
+    val id: String =""
+    )
