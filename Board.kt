@@ -6,7 +6,7 @@ import com.example.chessengine.figures.Figure
 import com.example.chessengine.figures.Position
 
 class Board: GameManager {
-    val playedMoves: List<Move> = mutableListOf()
+    val playedMoves: List<String> = mutableListOf()
     lateinit var positions: Array<Array<Position>>
     var gameStatus: GameStatus = GameStatus.NOT_STARTED
 
